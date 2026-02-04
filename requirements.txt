@@ -1,0 +1,23 @@
+torch==2.8.0
+torchaudio
+torchvision
+diffusers
+huggingface_hub
+modelscope
+gradio
+numpy==1.26.4
+accelerate
+psutil
+addict
+matplotlib
+einops
+transformers==4.46.3
+tokenizers==0.20.3
+PyMuPDF
+img2pdf
+easydict
+addict 
+Pillow
+
+https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.11/flash_attn-2.8.3+cu128torch2.8-cp312-cp312-linux_x86_64.whl ; sys_platform != 'win32'
+https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.10/flash_attn-2.8.2+cu128torch2.8-cp312-cp312-win_amd64.whl ; sys_platform == 'win32'
